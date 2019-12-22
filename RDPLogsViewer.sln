@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDPLogsViewer", "WindowsFormsApp1\RDPLogsViewer.csproj", "{E9FBC47F-67D6-4B8E-9ED0-17C82CA7E739}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDPLogsViewerTests", "RDPLogsViewerTests\RDPLogsViewerTests.csproj", "{ACCE29CB-9808-45CB-9D71-697934A2614F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9FBC47F-67D6-4B8E-9ED0-17C82CA7E739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9FBC47F-67D6-4B8E-9ED0-17C82CA7E739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9FBC47F-67D6-4B8E-9ED0-17C82CA7E739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9FBC47F-67D6-4B8E-9ED0-17C82CA7E739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACCE29CB-9808-45CB-9D71-697934A2614F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCE29CB-9808-45CB-9D71-697934A2614F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCE29CB-9808-45CB-9D71-697934A2614F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCE29CB-9808-45CB-9D71-697934A2614F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9706D39-45F8-4683-B6DA-55BC68141E2F}
+	EndGlobalSection
+EndGlobal

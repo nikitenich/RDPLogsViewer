@@ -1,0 +1,47 @@
+﻿<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  - <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>2</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2019-05-31T12:01:22.663480500Z" />
+    <EventRecordID>23674</EventRecordID>
+    <Correlation ActivityID="{f0eecbbf-1393-0000-0fcc-eef09313d501}" />
+    <Execution ProcessID="780" ThreadID="10548" />
+    <Channel>Security</Channel>
+    <Computer>ilya-pc</Computer>
+    <Security />
+  </System>
+  - <EventData>
+    <Data Name="SubjectUserSid">S-1-0-0</Data>
+    <Data Name="SubjectUserName">-</Data>
+    <Data Name="SubjectDomainName">-</Data>
+    <Data Name="SubjectLogonId">0x0</Data>
+    <Data Name="TargetUserSid">S-1-5-21-3244908504-2065530153-3377390533-1001</Data>
+    <Data Name="TargetUserName">ilya</Data>
+    <Data Name="TargetDomainName">ILYA-PC</Data>
+    <Data Name="TargetLogonId">0x468c9e95</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">NtLmSsp</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+    <Data Name="WorkstationName">funnybear6771.dyndns.info</Data>
+    <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">NTLM V2</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessId">0x0</Data>
+    <Data Name="ProcessName">-</Data>
+    <Data Name="IpAddress">95.158.219.31</Data>
+    <Data Name="IpPort">0</Data>
+    <Data Name="ImpersonationLevel">%%1833</Data>
+    <Data Name="RestrictedAdminMode">-</Data>
+    <Data Name="TargetOutboundUserName">-</Data>
+    <Data Name="TargetOutboundDomainName">-</Data>
+    <Data Name="VirtualAccount">%%1843</Data>
+    <Data Name="TargetLinkedLogonId">0x0</Data>
+    <Data Name="ElevatedToken">%%1843</Data>
+  </EventData>
+</Event>
